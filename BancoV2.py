@@ -131,7 +131,7 @@ def FiltrarCPF(cpf,usuarios):
     for usuario in usuarios:
         if usuario["cpf"] == cpf:
             return usuario
-    return None  # Retorna None quando o usuário não é encontrado
+    return None
 
 
 def NovaConta(AGENCIA,usuarios,num_contas,contas):
